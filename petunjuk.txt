@@ -1,0 +1,21 @@
+- install xampp di link https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.3.26/xampp-windows-x64-7.3.26-1-VC15-installer.exe/download
+
+- oke oke / next next saja
+
+- start apache & mysql (2 service teratas)
+
+- copy file download program ke folder penginstalan xampp -> htdocs -> extract to.
+
+- buat database (untuk nama database silakan di cek di file .env, DB_NAME)
+
+- import database (ada di folder ini juga)
+
+- buka link localhost/nama-folder-yang-diekstrak-dihtdocs/public
+
+- Atau buka folder di visual studio code, pilih command line
+
+- Ketikkan perintah php artisan serve
+
+- buka link localhost:8000
+
+- Done!
